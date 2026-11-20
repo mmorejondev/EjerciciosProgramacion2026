@@ -7,6 +7,7 @@ public class Ejercicio728 {
 
 		mensaje = mensaje.replace('a','x');
 		System.out.println(mensaje);
+		
 	}
 
 }
