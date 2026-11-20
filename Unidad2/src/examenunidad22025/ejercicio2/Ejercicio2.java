@@ -30,7 +30,7 @@ public class Ejercicio2 {
 		        for (int i=0;i<palabras.length;i++) {
 		        	if (palabras[i].length()>0) {
 		        		palabras[i]=palabras[i].substring(0, 1).toUpperCase() + palabras[i].substring(1);
-		        		fraseTransformada += " " + palabras[i];
+		        		fraseTransformada += palabras[i] + " ";
 		 		       
 		        	}
 		       		
@@ -40,9 +40,9 @@ public class Ejercicio2 {
 		        
 		        // 4. Mostrar los resultados por pantalla
 		        System.out.println("\n--- Resultados ---");
-		        System.out.println("Frase original: \"" + fraseOriginal + "\"");
+		        System.out.println("Frase original: " + fraseOriginal);
 		        System.out.println("Número total de palabras reales: " + contadorPalabras);
-		        System.out.println("Nueva frase transformada: \"" + fraseTransformada + "\"");
+		        System.out.println("Nueva frase transformada: " + fraseTransformada );
 
 		        
 	}
